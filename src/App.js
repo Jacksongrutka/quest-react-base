@@ -1,23 +1,10 @@
-import logo from './logo.svg';
+import Content from './components/content/content.js'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Content text="no dia mais claro, na noite mais densa, o mal sucumbirá anti a minha presença, todo aquele que venera o mal há de penar, quando o poder do lanterna verde enfrentar" color="green"/>
     </div>
   );
 }
